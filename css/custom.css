@@ -1,3 +1,9 @@
+
+/*LOGO
+BLUE: #283890, Red: 40  Green: 56   Blue: 144
+
+GREEN: #5AA93E, Red: 90 Green: 169  Blue: 62
+*/
 html, body {
     margin:0;
 
@@ -15,7 +21,8 @@ html, body {
     padding: 0px;
 }
 .navbar-default {
-    background-color: #2E2E2E;
+    /*background-color: #B6B6B6;*/
+    background-color: #fff;
 
 
     /*border-color: #0066CC;*/
@@ -40,10 +47,10 @@ html, body {
     z-index: 2;
 }
 .navbar .navbar-collapse > ul,
- .navbar .navbar-collapse > ul > li{
-background-color: #2E2E2E;
-z-index: 2;
-padding-right: 10px;
+.navbar .navbar-collapse > ul > li{
+    background-color: transparent;
+    z-index: 2;
+    padding-right: 10px;
 }
 
 /* title */
@@ -51,12 +58,12 @@ padding-right: 10px;
     color: #777;
     display: inline-block;
     float: left;
-    margin-top: -10px;
+    margin-top: 8px;
     padding-left: 0px;
 }
 
 .navbar img {
-    height: 90px;
+    height: 60px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -64,7 +71,7 @@ padding-right: 10px;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #777;
     font-size: 18px;
     /*height: 100px;*/
     padding-top: 50px;
@@ -72,30 +79,32 @@ padding-right: 10px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #336600;
+    color: #283890;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #336600;
+    color: #283890;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #336600;
+    color: #283890;
     background-color: transparent;
 }
 
 .dropdown-menu > li > a {
-    color: #fff;
+    color: #777;
 }
 
 .dropdown-menu,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus  {
-    color: #336600;
-    background-color: #2E2E2E;
+    border: none;
+    color: #283890;
+    background-color: rgba(255,255,255,0.95);
+
 }
 /* caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
@@ -126,12 +135,16 @@ padding-right: 10px;
 }
 
 .green {
-    background-color: green;
+    background-color: #5AA93E;
     min-height: 150px;
 }
 .blue {
-    background-color: blue;
+    background-color: #283890;
     min-height: 150px;
+}
+.blue-bar {
+    min-height: 5px;
+    background-color: #283890;
 }
 
 .footer {
