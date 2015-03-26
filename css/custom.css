@@ -48,7 +48,8 @@ html, body {
 }
 .navbar .navbar-collapse > ul,
 .navbar .navbar-collapse > ul > li{
-    background-color: transparent;
+    color: #283890;
+    background-color: rgba(255,255,255,0.95);
     z-index: 2;
     padding-right: 10px;
 }
@@ -140,14 +141,49 @@ html, body {
 }
 .blue {
     background-color: #283890;
-    min-height: 150px;
+    min-height: 220px;
 }
 .blue-bar {
     min-height: 5px;
     background-color: #283890;
 }
 
+.fade-line {
+    min-height: 5px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 47%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(47%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 47%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 47%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 47%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 47%,rgba(0,0,0,0) 100%); /* W3C */
+
+}
+
+.no-margin {
+    margin: 0px; 
+    padding: 0px;
+}
+.segment-title {
+    min-height: 40px;
+    background-color: transparent;
+    color: #283890;
+}
+.segment-text {
+    min-height: 40px;
+    background-color: transparent;
+    color: #283890;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.disclaimer {
+    font-size: 10px;
+}
+
 .footer {
+    color: grey;
     margin: 0px;
     margin-top: 40px;
+/*    -webkit-box-shadow: 8px -6px 6px #999;
+    -moz-box-shadow: 8px -6px 6px #999;
+    box-shadow: 8px -6px 6px #999;*/
 }
